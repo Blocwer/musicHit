@@ -74,7 +74,7 @@ while (cicle != "нет")
     }
 
 
-    Console.WriteLine("Хотите попробывать еще? если да - напишите , если нет - напишите нет");
+    Console.WriteLine("Хотите попробовать еще? если да - напишите да , если нет - напишите нет");
     cicle = Console.ReadLine();
     ineterstsMass.Clear();
     foreach (var line in massKeys)
